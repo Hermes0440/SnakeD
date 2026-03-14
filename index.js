@@ -295,7 +295,7 @@ function frame(){
             }
 
             if (selfCollision) {
-                console.log("Game Over! Skorun: " + (snake.length - 1));
+                console.log("Game Over! Score: " + (snake.length - 1));
                 snake = [{x: 0, y: 0, z: 0}];
                 snakeDir = {x: 0, y: 0, z: 0};
                 inputQueue = [];
@@ -359,7 +359,7 @@ function frame(){
 
     ctx.fillStyle = FOREGROUND;
     ctx.font = "bold 24px monospace";
-    ctx.fillText("SKOR: " + (snake.length - 1), 20, 40);
+    ctx.fillText("SCORE: " + (snake.length - 1), 20, 40);
 
     setTimeout(frame, 1000/FPS);
 }
