@@ -21,3 +21,9 @@ The game requires simultaneous control of the snake and the 3D world:
 ## 🚀 How to Run
 
 Since the game is built with vanilla web technologies, there are no dependencies to install or servers to configure.
+
+## 🙏 Acknowledgments & Inspiration
+
+The foundational 3D projection and wireframe rendering logic (drawing the initial 3D shapes on a canvas) was learned and inspired by a fantastic tutorial from Tsoding youtube channel (https://www.youtube.com/watch?v=qjWkNZ0SXfo). 
+
+While the tutorial provided the base for 3D drawing, the entire concept of transforming that engine into a fully playable, grid-based 3D Snake game—including the game loop, input queuing, gimbal lock solution (permanent world rotations), and collision detection—is my own original creation.
